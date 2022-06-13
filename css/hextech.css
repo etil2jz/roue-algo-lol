@@ -2,23 +2,23 @@
 
 @font-face {
   font-family: 'Beaufort';
-  src: url('fonts/Beaufort-Regular.woff') format('woff'), url('fonts/Beaufort-Regular.ttf') format('truetype')
+  src: url('fonts/BeaufortforLOL-Regular.otf') format('opentype')
 }
 
 @font-face {
   font-family: 'Beaufort';
-  src: url('fonts/Beaufort-Bold.woff') format('woff'), url('fonts/Beaufort-Bold.ttf') format('truetype');
+  src: url('fonts/BeaufortforLOL-Bold.otf') format('opentype');
   font-weight: bold
 }
 
 @font-face {
   font-family: 'Spiegel';
-  src: url('fonts/Spiegel-Regular.woff') format('woff'), url('fonts/Spiegel-Regular.ttf') format('truetype')
+  src: url('fonts/Spiegel-Regular.otf') format('opentype')
 }
 
 @font-face {
   font-family: 'Spiegel';
-  src: url('fonts/Spiegel-Italic.woff') format('woff'), url('fonts/Spiegel-Italic.ttf') format('truetype');
+  src: url('fonts/Spiegel-RegularItalic.otf') format('opentype');
   font-style: italic
 }
 
@@ -339,6 +339,17 @@ button:focus {
   font-size: 18px;
   color: #f0e6d2;
   padding: .75rem 2rem
+}
+
+.box.h2 {
+  font-family: 'Beaufort';
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #be9949;
+  box-shadow: 0 0 25px #000000;
+  text-align: center;
+  text-shadow: 0 0 5px #000000, -.5px .5px 0 #000000, .5px .5px 0 #000000, .5px -.5px 0 #000000, -.5px -.5px 0 #000000;
+
 }
 
 .button.is-tiny {
